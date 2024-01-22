@@ -181,6 +181,7 @@ class Ob2Hexo():
                 if file.endswith('.md'):
                     fm.file_path = os.path.join(root, file)
                     tag_list = fm.get_tags()
+                    #print(tag_list)
                     if self.sync_tags in tag_list:
                         print(f'更新文章：{file}')
                         hexo_file_path = os.path.join(self.hexo_path, file)
@@ -202,7 +203,7 @@ class Ob2Hexo():
                             fm.edit_attr(replace_dict=self.rep_dict)  # 替换标签
 
                         self.adn2note(hexo_file_path)  # callout 转换
-                        self.get_photo(hexo_file_path)  # 复制图片到Hexo目录下
+                        #self.get_photo(hexo_file_path)  # 复制图片到Hexo目录下
 
     def update_sync(self):
         """更新同步
@@ -312,12 +313,12 @@ class Ob2Hexo():
 
 
 if __name__ == '__main__':
-    # file_name = sys.argv[1]
-    file_name = 'Hexo_Waline独立部署'
-    ob2hexo = Ob2Hexo(file_name)
-    # print(ob2hexo)
-    ob2hexo.main()
+    # # file_name = sys.argv[1]
+    # file_name = '测试同步'
+    # ob2hexo = Ob2Hexo(file_name)
+    # # print(ob2hexo)
+    # ob2hexo.main()
 
     # 全部更新
-    # ob2hexo = Ob2Hexo()
-    # ob2hexo.tags_sync(True)
+    ob2hexo = Ob2Hexo()
+    ob2hexo.tags_sync(True)

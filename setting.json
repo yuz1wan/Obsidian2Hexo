@@ -1,15 +1,15 @@
 {
-  "ob_path": "C:/0资源库/0_笔记库",
-  "photo_path": "C:/0资源库/0_笔记库/assets",
-  "hexo_path": "C:/Hexo/source/_posts",
-  "hexo_photo_path": "C:/Hexo/source/images",
+  "ob_path": "./Obsidian/藏宝箱",
+  "photo_path": "./Obsidian/藏宝箱/assets",
+  "hexo_path": "./HexoBlog-Resp/source/_posts",
+  "hexo_photo_path": "./HexoBlog-Resp/source/images",
   "rep_dict": {
     "name": "title",
     "date created": "date",
     "date updated": "updated"
   },
   "del_list": [],
-  "sync_tags": "public",
+  "sync_tags": "share_to_blog",
   "syncTags_rep": true,
   "aliases_check": true
 }
