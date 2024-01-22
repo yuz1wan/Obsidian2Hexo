@@ -1,4 +1,4 @@
-cd Obsidian-Resp
+cd HexoBlog
 git config --global user.email "1172789766@qq.com"
 git config --global user.name "Wang Ziyu"
 git add .
