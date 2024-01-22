@@ -44,7 +44,7 @@ class Ob2Hexo:
                     else None
                 )
                 # Hexo文章存放文件路径,可能采用存量同步(tag_sync,update_sync),默认None
-            if not os.path.exists("Front_matter_edit.py"):
+            if not os.path.exists("Obsidian2Hexo/Front_matter_edit.py"):
                 raise Exception("依赖文件确缺失")
         except FileNotFoundError:
             raise Exception("配置文件缺失")
