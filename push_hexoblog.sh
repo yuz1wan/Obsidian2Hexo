@@ -1,4 +1,6 @@
 cd Obsidian-Resp
+git config --global user.email "1172789766@qq.com"
+git config --global user.name "Wang Ziyu"
 git add .
 current="`date +'%Y-%m-%d %H:%M:%S'`"
 msg="Updated: $current"
