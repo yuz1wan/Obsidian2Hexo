@@ -336,3 +336,4 @@ if __name__ == "__main__":
     # 全部更新
     ob2hexo = Ob2Hexo()
     ob2hexo.tags_sync(True)
+    print("end")
