@@ -5,4 +5,4 @@ git add .
 current="`date +'%Y-%m-%d %H:%M:%S'`"
 msg="Updated: $current"
 git commit -m "$msg"
-git push origin main
+git push -u origin main -f
