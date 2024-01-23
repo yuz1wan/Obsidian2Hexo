@@ -8,4 +8,4 @@ msg="Updated: $current"
 git commit -m "$msg"
 git branch
 git remote -v
-git push origin main -f -u ${K}
+git push origin main:main -f -u ${K}
