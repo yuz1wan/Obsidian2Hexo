@@ -2,7 +2,9 @@ K=$1
 cd HexoBlog-Resp
 git config --global user.email "1172789766@qq.com"
 git config --global user.name "Wang Ziyu"
+echo 0
 git add .
+echo 00
 current="`date +'%Y-%m-%d %H:%M:%S'`"
 msg="Updated: $current"
 git commit -m "$msg"
